@@ -1,2 +1,2 @@
 
-This text is <strong>important</strong>, please make sure is visible enough.
+This text is important, please make sure is visible enough.
