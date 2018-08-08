@@ -1,3 +1,4 @@
+set +e
 if grep 'strong' ./scratch.txt;
 then
         echo "The file is bold!"
