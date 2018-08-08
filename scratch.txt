@@ -1,2 +1,1 @@
-strong
 This text is important, please make sure is visible enough.
