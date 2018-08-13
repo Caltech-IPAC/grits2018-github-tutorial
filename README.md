@@ -63,6 +63,7 @@ Participants will be guided through the following steps:
 * [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Git documentation](https://git-scm.com/docs)
 * [Github guides](https://guides.github.com)
+* [git config aliases and more](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
 * [Useful git tips & tricks - autocompletion!](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
 * [Pull request template](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
 * [To Fork or to clone, that is the question!](http://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github/9257901#9257901)
