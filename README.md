@@ -19,24 +19,26 @@ Participants will be guided through the following steps:
 
 1. **clone** the repos locally on their end (need git software installed)
   * `git clone https://github.com/Caltech-IPAC/grits2018-tutorial.git` 
-  * default landing branch should be `master` (default per repos)
-    * `git status` to check on which branch you are
+  * default landing branch should be `dev` (default per repos, this one has rules for PRs!)
+    * `git status -sb` to check on which branch you are
 
-2. create your feature/ticket **branch** from `master` 
+2. create your feature/ticket **branch** from `dev` 
   * `git checkout -b [branch name]`, required unique branch name, usually formatted as `ISSUE-ID-meaningful-short-description`
-    * For demo, let's append github `USERNAME` to branch name
-  * for example, let's take a look at epic from JIRA board [IRSA-2060](https://jira.ipac.caltech.edu/browse/IRSA-2060) and pick a ticket, i.e. IRSA-2062 improve the text
+    * for example, let's take a look at epic from JIRA board [IRSA-2060](https://jira.ipac.caltech.edu/browse/IRSA-2060) and pick a ticket, i.e. IRSA-2062 improve the text
     * my branch name will be IRSA-2062-improve-text
-3. edit and **change** one line of the file in this repos named [scratch.txt](scratch.txt)
+    * Will update [scratch.txt](scratch.txt) and make it uppercase
+3. Imagine that you get assigned a ticket to update [names.txt](names.txt) with your name 
+  * create a branch, append your github `USERNAME` to branch name
+  * edit and **change** the file in this repos named [names.txt](names.txt) by adding your name
 4. **commit** your changes in your branch: add/commit
-    1. `git add scratch.txt`
+    1. `git add names.txt`
     2. `git commit -m"[your message]"`
 5. continue changing/adding/commit and check the differences:
     1. `git show`
     2. Check your commit history: `git log` or more fancy `git log --decorate --graph`
     3. *OPTIONAL*: if no commit to be made, at that point, you can: pull or rebase
      * after pulling, check branches pulled: `git branch --all`
-     * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
+     * if `dev` got new things, you will need to rebase in order to avoid conflict at the time you pull request
 
 6. Once done of changes, **push** to server (`-u` flag means that you'll start tracking the branch)
   * First time push: `git push -u origin [branch name]`
@@ -49,7 +51,8 @@ Participants will be guided through the following steps:
     * if request change, need to go to the branch, and
         * change file, git add / commit / (`rebase -i` to squash) / push (steps 3 to 6 above)
         * no rebase there because branch is already in server / no force push either
-
+  * wait for approve (repo rule in settings)
+    * did you update the counter in [sum-team.txt](sum-team.txt) and run `./team-test.sh`? Jenkins will complain
 8. Show when approve changes and merge from github
   * Branch can be deleted from github after merged
 
