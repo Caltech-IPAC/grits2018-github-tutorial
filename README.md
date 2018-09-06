@@ -14,7 +14,7 @@ The demo will cover:
 * commits and pushes
 * [branches and merging](https://www.atlassian.com/git/tutorials/using-branches)
 
-Participants will need a github account to be able to interact with the IPAC repos and [Git](https://git-scm.com/) tool installed locally.
+Participants will need a github account and be added to the (team) repos write permission to be able to interact with the IPAC repos and [Git](https://git-scm.com/) tool installed locally.
 
 ## Hands-on
 
@@ -63,6 +63,12 @@ Participants will be guided through the following steps:
 
 10. Once merged, typically the branch can be deleted from github from the same pull request page.
 
+## Admin tool
+
+* Permision for [teams](https://github.com/Caltech-IPAC/grits2018-tutorial/settings/collaboration)
+* See [branche rules](https://github.com/Caltech-IPAC/grits2018-tutorial/settings/branches)
+* See statstics example: [pulse](https://github.com/Caltech-IPAC/firefly/pulse)
+* See network branches example: [Firefly network](https://github.com/Caltech-IPAC/firefly/network)
 
 ### Need Help?
 
