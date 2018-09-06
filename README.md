@@ -26,7 +26,7 @@ Participants will be guided through the following steps:
     * `git status -sb` to check on which branch you are
 
 2. Pull request workflow **demo** with feature/ticket **branch** from `dev` 
-  * Will go through 3. to 10. below very fast here
+  * Will go through 3. to 9. below very fast here
   * `git checkout -b [branch name]`, required unique branch name, usually formatted as `ISSUE-ID-meaningful-short-description`
     * for example, let's take a look at epic from JIRA board [IRSA-2060](https://jira.ipac.caltech.edu/browse/IRSA-2060) and i've picked a ticket, i.e. `IRSA-2062 improve the text`
     * Branch name will be `IRSA-2062-improve-text`, once created, **git** will switch you to this local branch (see branches `git branch -a`, see status `git status`)
@@ -37,7 +37,7 @@ Participants will be guided through the following steps:
     
 3. **Assignment for you**: Imagine that you get assigned a ticket to update [names.txt](names.txt) with your name 
   * clone repos if you didn't do it yet! (see 1.)
-  * create a branch, append your github `USERNAME` to branch name, *i.e.* `EJOLIET-adding-name`
+  * create a branch, append your github `USERNAME` to branch name, *i.e.* `git checkout -b EJOLIET-adding-name`
   * edit and **change** the file named [names.txt](names.txt) by adding your name, don't remove other names! ;-)
   * **commit** your changes in your branch: add/commit
     1. `git add names.txt`
@@ -48,6 +48,7 @@ Participants will be guided through the following steps:
     3. *OPTIONAL*: if no commit to be made, at that point, you can: pull or rebase
      * after pulling, check branches pulled: `git branch --all`
      * if `dev` got new things, you will need to rebase in order to avoid conflict at the time you pull request
+    4. *OPTIONAL*: `git stash` very useful to [stage changes](https://git-scm.com/docs/git-stash) and switch from one branch to another...
      
 5. Once done with changes, **push** to server (`-u` flag means that you'll start tracking the branch *u*pstream)
   * First time push: `git push -u origin [branch name]`
