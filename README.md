@@ -10,9 +10,9 @@ Workshop scratch area for demo purposes
 
 The demo will cover:
 
-* github tool: graphs/metrics, pull request, code review
-* commits and pushes
+* git main commands
 * [branches and merging](https://www.atlassian.com/git/tutorials/using-branches)
+* github tool: graphs/metrics, pull request, code review
 
 Participants will need a github account and be added to the (team) repos write permission to be able to interact with the IPAC repos and [Git](https://git-scm.com/) tool installed locally.
 
