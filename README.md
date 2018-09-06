@@ -25,43 +25,49 @@ Participants will be guided through the following steps:
   * default landing branch should be `dev` (default per repos, this one has rules for PRs!)
     * `git status -sb` to check on which branch you are
 
-2. create your feature/ticket **branch** from `dev` 
+2. Pull request workflow **demo** with feature/ticket **branch** from `dev` 
+  * Will go through 3. to 10. below very fast here
   * `git checkout -b [branch name]`, required unique branch name, usually formatted as `ISSUE-ID-meaningful-short-description`
-    * for example, let's take a look at epic from JIRA board [IRSA-2060](https://jira.ipac.caltech.edu/browse/IRSA-2060) and pick a ticket, i.e. IRSA-2062 improve the text
-    * my branch name will be IRSA-2062-improve-text
-    * Will update [scratch.txt](scratch.txt) and make it uppercase
-3. Imagine that you get assigned a ticket to update [names.txt](names.txt) with your name 
-  * create a branch, append your github `USERNAME` to branch name
-  * edit and **change** the file in this repos named [names.txt](names.txt) by adding your name
-4. **commit** your changes in your branch: add/commit
+    * for example, let's take a look at epic from JIRA board [IRSA-2060](https://jira.ipac.caltech.edu/browse/IRSA-2060) and i've picked a ticket, i.e. `IRSA-2062 improve the text`
+    * Branch name will be `IRSA-2062-improve-text`, once created, **git** will switch you to this local branch (see branches `git branch -a`, see status `git status`)
+   * Will update locally [scratch.txt](scratch.txt) and make it uppercase
+   * Will commit and push the branch
+   * Will make a [pull request](https://github.com/Caltech-IPAC/grits2018-tutorial/compare)
+   * Will show the review aspect of a PR and merge
+    
+3. **Assignment for you**: Imagine that you get assigned a ticket to update [names.txt](names.txt) with your name 
+  * clone repos if you didn't do it yet! (see 1.)
+  * create a branch, append your github `USERNAME` to branch name, *i.e.* `EJOLIET-adding-name`
+  * edit and **change** the file named [names.txt](names.txt) by adding your name, don't remove other names! ;-)
+  * **commit** your changes in your branch: add/commit
     1. `git add names.txt`
     2. `git commit -m"[your message]"`
-5. continue changing/adding/commit and check the differences:
+4. continue changing/adding/commit and check the differences:
     1. `git show`
     2. Check your commit history: `git log` or more fancy `git log --decorate --graph`
     3. *OPTIONAL*: if no commit to be made, at that point, you can: pull or rebase
      * after pulling, check branches pulled: `git branch --all`
      * if `dev` got new things, you will need to rebase in order to avoid conflict at the time you pull request
-
-6. Once done of changes, **push** to server (`-u` flag means that you'll start tracking the branch)
+     
+5. Once done with changes, **push** to server (`-u` flag means that you'll start tracking the branch *u*pstream)
   * First time push: `git push -u origin [branch name]`
-  * Your local branch is now synced with remote
-  * Next pushes: `git push`
+  * Your local branch is now synced with remote, someone else can take other or run jenkins ;-)
+  * Next pulls/pushes: `git push` or `git pull`
 
-7. **Pull Request**: in github.com, button 'pull request' should appear
+6. **Pull Request**: in github.com, button 'pull request' should appear
   * Show a pull request / code review
   * *OPTIONAL* Show a case of how to [request changes](https://help.github.com/articles/about-pull-request-reviews/)  (and what to do)
     * if request change, need to go to the branch, and
         * change file, git add / commit / (`rebase -i` to squash) / push (steps 3 to 6 above)
         * no rebase there because branch is already in server / no force push either
-  * wait for approve (repo rule in settings)
-    * did you update the counter in [sum-team.txt](sum-team.txt) and run `./team-test.sh`? Jenkins will complain
-8. Show when approve changes and merge from github
+  * wait for approve (repo rule in [settings](https://github.com/Caltech-IPAC/grits2018-tutorial/settings/branches))
+    * did you update the counter in [sum-team.txt](sum-team.txt) and run `./team-test.sh`? Jenkins will complain ;-)
+7. Show when approve changes and merge from github
   * Branch can be deleted from github after merged
 
-9. OPTIONAL: If merge conflict (typically, same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
+8. OPTIONAL: If merge conflict (typically, same line have changed in the meantime): github will suggest commands and guidelines to solve and merge locally. Tipically you'll need to fix the conflict and commit then merge back to dev `git merge [branch]`
 
-10. Once merged, typically the branch can be deleted from github from the same pull request page.
+9. Once merged, typically the branch can be deleted from github from the same pull request page.
 
 ## Admin tool
 
