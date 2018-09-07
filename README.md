@@ -1,4 +1,4 @@
-# Github tutorial-workshop
+# GitHub/git tutorial
 Workshop scratch area for demo purposes
 
 * author: [Emmanuel Joliet](https://caltech-ipac.slack.com/team/ejoliet) ejoliet@ipac.caltech.edu
