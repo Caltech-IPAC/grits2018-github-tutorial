@@ -4,7 +4,7 @@ Workshop scratch area for demo purposes
 * author: [Emmanuel Joliet](https://caltech-ipac.slack.com/team/ejoliet) ejoliet@ipac.caltech.edu
 
 ## Version control with Git
-[slides draft](https://caltech.box.com/s/p46pf1yowu3u4sb65zfq7hjpvu721bhj) 
+[slides draft](https://caltech.app.box.com/file/317213612902) 
 
 ## Demo
 
