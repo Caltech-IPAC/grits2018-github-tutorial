@@ -83,8 +83,9 @@ Participants will be guided through the following steps:
 
 * [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Git documentation](https://git-scm.com/docs)
-* [Github guides](https://guides.github.com)
-* [git config aliases and more](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config) or use command `git config --global --edit`
+* [Github guides](https://guides.github.com) and [cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+* [git config aliases and more](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config) or use command `git config --global --edit` [my aliases](git-alias.txt)
+* `git config --global alias.hist 'log --pretty=format:"%h %ad (%cr) | %s%d [%an]" --graph --date=short'`
 * Learn more about [credentials](https://help.github.com/articles/caching-your-github-password-in-git/), clone with username, prompting your password: `git clone https://username@github.com/username/repository.git`
 * Switch username or endpoint: `git remote set-url origin https://username@github.com/Caltech-IPAC/grits2018-tutorial.git`
 * .gitignore? convenient when `git add -u`
