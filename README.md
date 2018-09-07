@@ -4,6 +4,12 @@ Workshop scratch area for demo purposes
 * author: [Emmanuel Joliet](https://caltech-ipac.slack.com/team/ejoliet) ejoliet@ipac.caltech.edu
 
 ## Version control with Git
+git from scratch!
+Remember 3 concepts, first one is required for the following ones: 
+1. versioning files means tracking/tagging and persisting logs of file changes
+2. restore changes back from the past (commits hash!)
+3. merge with changes from other branches/remote
+
 [slides draft](https://caltech.app.box.com/file/317213612902) 
 
 ## Tutorial
@@ -86,6 +92,7 @@ Participants will be guided through the following steps:
 * [Github guides](https://guides.github.com) and [cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 * [git config aliases and more](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config) or use command `git config --global --edit` [my aliases](git-alias.txt)
 * `git config --global alias.hist 'log --pretty=format:"%h %ad (%cr) | %s%d [%an]" --graph --date=short'`
+* very powerful one: `git log --grep`
 * Learn more about [credentials](https://help.github.com/articles/caching-your-github-password-in-git/), clone with username, prompting your password: `git clone https://username@github.com/username/repository.git`
 * Switch username or endpoint: `git remote set-url origin https://username@github.com/Caltech-IPAC/grits2018-tutorial.git`
 * .gitignore? convenient when `git add -u`
