@@ -1,0 +1,61 @@
+# most git alias i use
+# use command
+# git config alias.XXX ALIAS_COMMAND
+
+alias.hist=log --pretty=format:"%h %ad (%cr) | %s%d [%an]" --graph --date=short
+alias.branches=branch -avv
+alias.st=status -sb
+alias.g=grep -Ii
+alias.hd=log -16 --color=always --all --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -n1 --stat
+alias.dl=diff HEAD^..HEAD
+alias.co=checkout
+alias.br=branch
+alias.ci=commit
+alias.d=diff --word-diff=plain
+alias.lf=log --name-only
+alias.l=log -16 --color=always --all --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.ll=log --color=always --all --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.lg=log -10 --color=always --all --graph --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.lgl=log --color=always --all --graph --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.out=log @{u}..
+alias.currentbranch=!git branch --contains HEAD | grep '*' | tr -s ' ' | cut -d ' ' -f2
+alias.wdiff=diff --color-words
+
+
+# OR
+# copy and paste under [alias] after running command `git config --global --edit`
+
+[alias]
+        hist = log --pretty=format:\"%h %ad (%cr) | %s%d [%an]\" --graph --date=short
+        branches =  branch -avv
+
+        st = status -sb
+        g = grep -Ii
+        #hd = diff HEAD^..HEAD --stat --summary
+        hd="log -16 --color=always --all --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -n1 --stat"
+        dl= diff HEAD^..HEAD
+        co = checkout
+        br = "branch"
+        ci = "commit"
+        d = "diff --word-diff=plain"
+        lf = log --name-only
+# Log that shows titles of last 16 commits
+    l = "log -16 --color=always --all --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+
+    # Log that starts a pager with titles of all the commits in your tree
+    ll = log --color=always --all --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    # Log that shows the last 10 commits as a graph
+    lg = "log -10 --color=always --all --graph --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+
+    # Log that shows all commits as a graph (using a pager)
+    lgl = "log --color=always --all --graph --topo-order --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+    # Show outgoing commits
+    out = "log @{u}.."
+
+    # Print the title of the current branch; sometimes useful for scripting
+    currentbranch = "!git branch --contains HEAD | grep '*' | tr -s ' ' | cut -d ' ' -f2"
+
+    # Better diffs for prose
+    wdiff = "diff --color-words"
