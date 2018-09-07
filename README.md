@@ -6,9 +6,9 @@ Workshop scratch area for demo purposes
 ## Version control with Git
 [slides draft](https://caltech.app.box.com/file/317213612902) 
 
-## Demo
+## Tutorial
 
-The demo will cover:
+This tutorial will cover:
 
 * git main commands
 * [branches and merging](https://www.atlassian.com/git/tutorials/using-branches)
@@ -16,7 +16,7 @@ The demo will cover:
 
 Participants will need a github account and be added to the (team) repos write permission to be able to interact with the IPAC repos and [Git](https://git-scm.com/) tool installed locally.
 
-## Hands-on
+## Demo
 
 Participants will be guided through the following steps:
 
@@ -26,7 +26,7 @@ Participants will be guided through the following steps:
     * `git status -sb` to check on which branch you are
 
 2. Pull request workflow **demo** with feature/ticket **branch** from `dev` 
-  * Will go through 3. to 9. below very fast here
+  * Will go through steps 3. to 9. described below (hands-on) very fast here
   * `git checkout -b [branch name]`, required unique branch name, usually formatted as `ISSUE-ID-meaningful-short-description`
     * for example, let's take a look at epic from JIRA board [IRSA-2060](https://jira.ipac.caltech.edu/browse/IRSA-2060) and i've picked a ticket, i.e. `IRSA-2062 improve the text`
     * Branch name will be `IRSA-2062-improve-text`, once created, **git** will switch you to this local branch (see branches `git branch -a`, see status `git status`)
@@ -35,6 +35,8 @@ Participants will be guided through the following steps:
    * Will make a [pull request](https://github.com/Caltech-IPAC/grits2018-tutorial/compare)
    * Will show the review aspect of a PR and merge
     
+## Hands-on
+
 3. **Assignment for you**: Imagine that you get assigned a ticket to update [names.txt](names.txt) with your name 
   * clone repos if you didn't do it yet! (see 1.)
   * create a branch, append your github `USERNAME` to branch name, *i.e.* `git checkout -b EJOLIET-adding-name`
@@ -43,7 +45,7 @@ Participants will be guided through the following steps:
     1. `git add names.txt`
     2. `git commit -m"[your message]"`
 4. continue changing/adding/commit and check the differences:
-    1. `git show`
+    1. `git show` (`git show -2 -p` see history diff *2* commits behind)
     2. Check your commit history: `git log` or more fancy `git log --decorate --graph`
     3. *OPTIONAL*: if no commit to be made, at that point, you can: pull or rebase
      * after pulling, check branches pulled: `git branch --all`
