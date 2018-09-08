@@ -95,6 +95,8 @@ Participants will be guided through the following steps:
 
 You want more?
 
+* branch merge with --no-ff on tagged branches, otherwise fast-forward
+![no-ff](https://nvie.com/img/merge-without-ff@2x.png)
 * stage changes, `git stash`, reapply and drop last stash: `git stash pop`, others command: drop, apply stash{X}
 * create pathch and apply: `git diff hash1 hash2 > patch.diff` then, apply to different branch, `git apply patch.diff`
 * rebase what? Sometime is colorful... `rebase -i` to pick and squash!
