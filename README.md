@@ -5,7 +5,7 @@ Workshop scratch area for demo purposes
 
 ## Version control with Git
 
--> GitHub is a code hosting platform for version control and collaboration based on `git`. GitHub allow you to do (more) what git can do visually (mergin branch, diff, blames, insights, logs, history).
+-> GitHub is a code hosting platform for version control and collaboration based on `git`. GitHub allow you to do (more) visually what git can do from the termnal (merging branch, diff, blames, insights, logs, history).
 
 -> Git is a version control system:
 
