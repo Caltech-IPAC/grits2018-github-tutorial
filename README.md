@@ -5,9 +5,9 @@ Workshop scratch area for demo purposes
 
 ## Version control with Git
 
-`git` from scratch!
+-> GitHub is a code hosting platform for version control and collaboration based on `git`. GitHub allow you to do (more) what git can do visually (mergin branch, diff, blames, insights, logs, history).
 
-* Git is a version control system:
+-> Git is a version control system:
 
 Remember those 3 concepts, the first one is required for the following ones to exist: 
 1. versioning files means tracking/tagging and persisting logs of file changes
@@ -26,7 +26,7 @@ The idea is that at the end of the workshop you shouldn't be saving your file wi
 
 This tutorial will cover:
 
-* git main commands
+* `git` main commands
 * [branches and merging](https://www.atlassian.com/git/tutorials/using-branches)
 * github tool: graphs/metrics, pull request, code review
 
@@ -35,6 +35,8 @@ Participants will need a github account and be added to the (team) repos write p
 ## Demo through an example
 
 Participants will be guided through the following steps:
+
+`git` from scratch!
 
 1. **clone** the repos locally on their end (need git software installed)
   * `git clone https://github.com/Caltech-IPAC/grits2018-github-tutorial.git` 
