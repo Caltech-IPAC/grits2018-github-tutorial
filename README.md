@@ -37,7 +37,7 @@ Participants will need a github account and be added to the (team) repos write p
 Participants will be guided through the following steps:
 
 1. **clone** the repos locally on their end (need git software installed)
-  * `git clone https://github.com/Caltech-IPAC/grits2018-tutorial.git` 
+  * `git clone https://github.com/Caltech-IPAC/grits2018-github-tutorial.git` 
   * default landing branch should be `dev` (default per repos, this one has rules for PRs!)
     * `git status -sb` to check on which branch you are
 
