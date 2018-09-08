@@ -122,6 +122,10 @@ You want more?
 * Learn more about [credentials](https://help.github.com/articles/caching-your-github-password-in-git/), clone with username, prompting your password: `git clone https://username@github.com/username/repository.git`
 * Switch username or endpoint: `git remote set-url origin https://username@github.com/Caltech-IPAC/grits2018-tutorial.git`
 * .gitignore? convenient when `git add -u`
+* See diff in each commit: `git log -p -M --follow --stat -- /path/to/FILE`
+* Github blame is awesome but can i do something similar with git? YES:
+   * Do search for changes related to a string `git log --stat -S"gator.host" --pretty=format:'%h %an %ad %s' .`
+   * Once you now the file, run the previous command on it. Ta-da!
 
 #### HELP!?
 * [Leave message in Slack #workshop](https://tmt-stil.slack.com/messages/C4JV40FRD)
