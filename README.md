@@ -4,15 +4,25 @@ Workshop scratch area for demo purposes
 * author: [Emmanuel Joliet](https://caltech-ipac.slack.com/team/ejoliet) ejoliet@ipac.caltech.edu
 
 ## Version control with Git
-git from scratch!
-Remember 3 concepts, first one is required for the following ones: 
+
+`git` from scratch!
+
+* Git is a version control system:
+
+Remember those 3 concepts, the first one is required for the following ones to exist: 
 1. versioning files means tracking/tagging and persisting logs of file changes
 2. restore changes back from the past (commits hash!)
 3. merge with changes from other branches/remote
 
-[slides draft](https://caltech.app.box.com/file/317213612902) 
+* Everything is local (95%!), you can work (change/track/merge your files) offline.
+* Distributed, switch repos, fork, etc.
+* Tree, branches and checkpoints `git commit && git add -u && git push` (~ `save as`): 
+raise a hand whoever, in the past, saved a file appending a suffix *-VERSION_TAG* to the filename to track the changes? :raised_hand:
+
+Pull request, see graph with branches in [slides draft](https://caltech.app.box.com/file/317213612902) 
 
 ## Tutorial
+The idea is that at the end of the workshop you shouldn't be saving your file with different filename everrtytime you want to keep a version of it for the future ;-)
 
 This tutorial will cover:
 
@@ -22,7 +32,7 @@ This tutorial will cover:
 
 Participants will need a github account and be added to the (team) repos write permission to be able to interact with the IPAC repos and [Git](https://git-scm.com/) tool installed locally.
 
-## Demo
+## Demo through an example
 
 Participants will be guided through the following steps:
 
@@ -41,7 +51,7 @@ Participants will be guided through the following steps:
    * Will make a [pull request](https://github.com/Caltech-IPAC/grits2018-tutorial/compare)
    * Will show the review aspect of a PR and merge
     
-## Hands-on
+## Hands-on: back to you!
 
 3. **Assignment for you**: Imagine that you get assigned a ticket to update [names.txt](names.txt) with your name 
   * clone repos if you didn't do it yet! (see 1.)
@@ -77,6 +87,12 @@ Participants will be guided through the following steps:
 8. OPTIONAL: If merge conflict (typically, same line have changed in the meantime): github will suggest commands and guidelines to solve and merge locally. Tipically you'll need to fix the conflict and commit then merge back to dev `git merge [branch]`
 
 9. Once merged, typically the branch can be deleted from github from the same pull request page.
+
+## Advanced
+
+* rebase what? Sometime is colorful...
+* cherry picking? Is it like going to a picnic? 
+* fork? And knives too...
 
 ## Admin tool
 
