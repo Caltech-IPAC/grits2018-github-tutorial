@@ -90,6 +90,10 @@ Participants will be guided through the following steps:
 
 ## Advanced
 
+You want more?
+
+* stage changes, `git stash`, reapply and drop last stash: `git stash pop`, others command: drop, apply stash{X}
+* create pathch and apply: `git diff hash1 hash2 > patch.diff` then, apply to different branch, `git apply patch.diff`
 * rebase what? Sometime is colorful... `rebase -i` to pick and squash!
 * cherry picking? Is it like going to a picnic? 
 * fork? And knives too... [example](https://github.com/tmtsoftware/csw-acceptance/compare/master...ejoliet:master)
@@ -103,17 +107,22 @@ Participants will be guided through the following steps:
 
 ### Need Help?
 
+#### guides
 * [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Git documentation](https://git-scm.com/docs)
 * [Github guides](https://guides.github.com) and [cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+* [Useful git tips & tricks - autocompletion!](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
+* [To Fork or to clone, that is the question!](http://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github/9257901#9257901)
+* [Pull request template](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
+
+#### useful commands
 * [git config aliases and more](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config) or use command `git config --global --edit` [my aliases](git-alias.txt)
 * `git config --global alias.hist 'log --pretty=format:"%h %ad (%cr) | %s%d [%an]" --graph --date=short'`
 * very powerful one: `git log --grep`
 * Learn more about [credentials](https://help.github.com/articles/caching-your-github-password-in-git/), clone with username, prompting your password: `git clone https://username@github.com/username/repository.git`
 * Switch username or endpoint: `git remote set-url origin https://username@github.com/Caltech-IPAC/grits2018-tutorial.git`
 * .gitignore? convenient when `git add -u`
-* [Useful git tips & tricks - autocompletion!](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
-* [Pull request template](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
-* [To Fork or to clone, that is the question!](http://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github/9257901#9257901)
+
+#### HELP!?
 * [Leave message in Slack #workshop](https://tmt-stil.slack.com/messages/C4JV40FRD)
 * [Slack me](https://tmt-stil.slack.com/messages/@ejoliet)
