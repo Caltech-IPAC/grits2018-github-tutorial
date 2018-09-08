@@ -27,7 +27,8 @@ The idea is that at the end of the workshop you shouldn't be saving your file wi
 This tutorial will cover:
 
 * `git` main commands
-* [branches and merging](https://www.atlassian.com/git/tutorials/using-branches)
+* [branches and merging](https://www.atlassian.com/git/tutorials/using-branches), i.e. if 2 branches, `master` and `dev`:
+![branches](https://cdn-images-1.medium.com/max/1800/1*tnvRls6Dg7vFt0zGdtfu_w.png)
 * github tool: graphs/metrics, pull request, code review
 
 Participants will need a github account and be added to the (team) repos write permission to be able to interact with the IPAC repos and [Git](https://git-scm.com/) tool installed locally.
