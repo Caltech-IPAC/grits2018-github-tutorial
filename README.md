@@ -120,7 +120,7 @@ You want more?
 * `git config --global alias.hist 'log --pretty=format:"%h %ad (%cr) | %s%d [%an]" --graph --date=short'`
 * very powerful one: `git log --grep`
 * Learn more about [credentials](https://help.github.com/articles/caching-your-github-password-in-git/), clone with username, prompting your password: `git clone https://username@github.com/username/repository.git`
-* Switch username or endpoint: `git remote set-url origin https://username@github.com/Caltech-IPAC/grits2018-tutorial.git`
+* Switch username or endpoint: `git remote set-url origin https://username@github.com/Caltech-IPAC/grits2018-github-tutorial.git`
 * .gitignore? convenient when `git add -u`
 * See diff in each commit, [~blame](https://blog.andrewray.me/a-better-git-blame/): `git log -p -M --follow --stat -- /path/to/FILE`
 * Github blame is awesome but can i do something similar with git? YES:
