@@ -90,9 +90,9 @@ Participants will be guided through the following steps:
 
 ## Advanced
 
-* rebase what? Sometime is colorful...
+* rebase what? Sometime is colorful... `rebase -i` to pick and squash!
 * cherry picking? Is it like going to a picnic? 
-* fork? And knives too...
+* fork? And knives too... [example](https://github.com/tmtsoftware/csw-acceptance/compare/master...ejoliet:master)
 
 ## Admin tool
 
