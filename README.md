@@ -19,7 +19,7 @@ Remember those 3 concepts, the first one is required for the following ones to e
 * Tree, branches and checkpoints `git commit && git add -u && git push` (~ `save as`): 
 raise a hand whoever, in the past, saved a file appending a suffix *-VERSION_TAG* to the filename to track the changes? :raised_hand:
 
-Pull request workflow, see graph with branches in [slides draft](https://caltech.app.box.com/file/317213612902) or directly [here](https://guides.github.com/introduction/flow/):
+Pull request workflow, see graph with branches in [slides draft](https://caltech.app.box.com/file/317213612902) or directly [here](https://guides.github.com/introduction/flow/)
 
 ## Tutorial
 The idea is that at the end of the workshop you shouldn't be saving your file with different filename everrtytime you want to keep a version of it for the future ;-)
