@@ -124,6 +124,7 @@ You want more `git`?
 * [Useful git tips & tricks - autocompletion!](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
 * [To Fork or to clone, that is the question!](http://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github/9257901#9257901)
 * [Pull request template](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
+* Not for beginners but Mac/Windows users can use [SourceTree](https://www.sourcetreeapp.com/) to visualize/work on git repos/branches
 
 #### useful commands
 * [git config aliases and more](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config) or use command `git config --global --edit` [my aliases](git-alias.txt)
