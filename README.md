@@ -99,9 +99,13 @@ You want more?
 ![no-ff](https://nvie.com/img/merge-without-ff@2x.png)
 * stage changes, `git stash`, reapply and drop last stash: `git stash pop`, others command: drop, apply stash{X}
 * create pathch and apply: `git diff hash1 hash2 > patch.diff` then, apply to different branch, `git apply patch.diff`
-* rebase what? Sometime is colorful... `rebase -i` to pick and squash!
+* rebase what? Rewriting the history! Sometime is colorful... `rebase -i` to pick and squash!
+  * I messed up a branch merged or a commit? revert remote? Rewriting history requeires FORCE pushed `-f`, see this [article](http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html)
 * cherry picking? Is it like going to a picnic? 
 * fork? And knives too... [example](https://github.com/tmtsoftware/csw-acceptance/compare/master...ejoliet:master)
+* `git bisect` WOW!
+* GitHub blame tool, [example](https://github.com/Caltech-IPAC/firefly/blame/dev/src/firefly/java/edu/caltech/ipac/firefly/server/query/UserCatalogQuery.java)! see `git` useful command below to do it from console.
+* see your git commands with `git reflog`
 
 ## Admin tool
 
