@@ -100,7 +100,8 @@ You want more?
 * stage changes, `git stash`, reapply and drop last stash: `git stash pop`, others command: drop, apply stash{X}
 * create pathch and apply: `git diff hash1 hash2 > patch.diff` then, apply to different branch, `git apply patch.diff`
 * rebase what? Rewriting the history! Sometime is colorful... `rebase -i` to pick and squash!
-  * I messed up a branch merged or a commit? revert remote? Rewriting history requeires FORCE pushed `-f`, see this [article](http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html)
+  * I messed up a branch merged or a commit? revert remote? Rewriting history requires FORCE pushed `-f`, see this [article](http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html)
+  * `git reset` to change the pointer, `git revert` to a particular commit, go back in history at your own peril.
 * cherry picking? Is it like going to a picnic? 
 * fork? And knives too... [example](https://github.com/tmtsoftware/csw-acceptance/compare/master...ejoliet:master)
 * `git bisect` WOW!
