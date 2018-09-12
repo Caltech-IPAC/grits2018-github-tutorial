@@ -138,5 +138,5 @@ You want more `git`?
    * Once you know the file, see diff in each commit, [~blame](https://blog.andrewray.me/a-better-git-blame/): `git log -p -M --follow --stat -- /path/to/FILE`. Ta-da!
 
 #### HELP!?
-* [Leave message in Slack #workshop](https://tmt-stil.slack.com/messages/C4JV40FRD)
-* [Slack me](https://tmt-stil.slack.com/messages/@ejoliet)
+* [Leave message in Slack #grits-tutorial](https://caltech-ipac.slack.com/messages/CCN03J7D5)
+* [Slack me](https://caltech-ipac.slack.com/messages/@ejoliet)
