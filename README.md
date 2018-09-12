@@ -93,7 +93,7 @@ Participants will be guided through the following steps:
 
 ## Advanced
 
-You want more?
+You want more `git`?
 
 * branch merge with --no-ff on tagged branches, otherwise fast-forward
 ![no-ff](https://nvie.com/img/merge-without-ff@2x.png)
@@ -105,15 +105,15 @@ You want more?
 * cherry picking? Is it like going to a picnic? 
 * fork? And knives too... [example](https://github.com/tmtsoftware/csw-acceptance/compare/master...ejoliet:master)
 * `git bisect` WOW!
-* GitHub blame tool, [example](https://github.com/Caltech-IPAC/firefly/blame/dev/src/firefly/java/edu/caltech/ipac/firefly/server/query/UserCatalogQuery.java)! see `git` useful command below to do it from console.
 * see your git commands with `git reflog`
 
-## Admin tool
+## Github and (admin) advanced tools
 
 * Permision for [teams](https://github.com/Caltech-IPAC/grits2018-tutorial/settings/collaboration)
 * See [branche rules](https://github.com/Caltech-IPAC/grits2018-tutorial/settings/branches)
 * See statstics example: [pulse](https://github.com/Caltech-IPAC/firefly/pulse)
 * See network branches example: [Firefly network](https://github.com/Caltech-IPAC/firefly/network)
+* GitHub blame tool, [example](https://github.com/Caltech-IPAC/firefly/blame/dev/src/firefly/java/edu/caltech/ipac/firefly/server/query/UserCatalogQuery.java)! see `git` useful command below to do it from console.
 
 ### Need Help?
 
