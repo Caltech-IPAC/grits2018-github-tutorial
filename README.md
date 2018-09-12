@@ -106,6 +106,8 @@ You want more `git`?
 * fork? And knives too... a way to contribute to a project even if they don't want you! [example](https://github.com/tmtsoftware/csw-acceptance/compare/master...ejoliet:master)
 * `git bisect` WOW!
 * see your git commands with `git reflog`
+* cleanup local branches: `git branch -d [BRANCH_NAME]` (or `-D` to force delete if branch has changed after remote merged)
+  * remote delete: `git push origin --delete [BR_NAME]`
 
 ## Github and (admin) advanced tools
 
