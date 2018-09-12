@@ -10,7 +10,7 @@ Workshop scratch area for demo purposes
 -> Git is a version control system:
 
 Remember those 3 concepts, the first one is required for the following ones to exist: 
-1. versioning files means tracking/tagging and persisting logs of file changes
+1. versioning files means tracking/tagging and persisting history of file (incremental) changes
 2. restore changes back from the past (commits hash!)
 3. merge with changes from other branches/remote
 
