@@ -103,7 +103,7 @@ You want more `git`?
   * I messed up a branch merged or a commit? revert remote? Rewriting history requires FORCE pushed `-f`, see this [article](http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html)
   * `git reset` to change the pointer, `git revert` to a particular commit, go back in history at your own peril.
 * cherry picking? Is it like going to a picnic? 
-* fork? And knives too... [example](https://github.com/tmtsoftware/csw-acceptance/compare/master...ejoliet:master)
+* fork? And knives too... a way to contribute to a project even if they don't want you! [example](https://github.com/tmtsoftware/csw-acceptance/compare/master...ejoliet:master)
 * `git bisect` WOW!
 * see your git commands with `git reflog`
 
