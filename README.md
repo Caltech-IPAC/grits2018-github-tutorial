@@ -111,7 +111,7 @@ You want more `git`?
 
 * Permision for [teams](https://github.com/Caltech-IPAC/grits2018-tutorial/settings/collaboration)
 * See [branche rules](https://github.com/Caltech-IPAC/grits2018-tutorial/settings/branches)
-* See statstics example: [pulse](https://github.com/Caltech-IPAC/firefly/pulse)
+* See statistics example: [pulse](https://github.com/Caltech-IPAC/firefly/pulse)
 * See network branches example: [Firefly network](https://github.com/Caltech-IPAC/firefly/network)
 * GitHub blame tool, [example](https://github.com/Caltech-IPAC/firefly/blame/dev/src/firefly/java/edu/caltech/ipac/firefly/server/query/UserCatalogQuery.java)! see `git` useful command below to do it from console.
 
