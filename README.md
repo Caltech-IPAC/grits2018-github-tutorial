@@ -33,7 +33,7 @@ This tutorial will cover:
 
 Participants will need a github account and be added to the (team) repos write permission to be able to interact with the IPAC repos and [Git](https://git-scm.com/) tool installed locally.
 
-## Demo through an example
+## Demo through a Pull Request example
 
 Participants will be guided through the following steps:
 
@@ -44,7 +44,7 @@ Participants will be guided through the following steps:
   * default landing branch should be `dev` (default per repos, this one has rules for PRs!)
     * `git status -sb` to check on which branch you are
 
-2. Pull request workflow **demo** with feature/ticket **branch** from `dev` 
+2. **Pull request workflow demo** with feature/ticket **branch** from `dev` 
   * Will go through steps 3. to 9. described below (hands-on) very fast here
   * `git checkout -b [branch name]`, required unique branch name, usually formatted as `ISSUE-ID-meaningful-short-description`
     * for example, let's take a look at epic from JIRA board [IRSA-2060](https://jira.ipac.caltech.edu/browse/IRSA-2060) and i've picked a ticket, i.e. `IRSA-2062 improve the text`
