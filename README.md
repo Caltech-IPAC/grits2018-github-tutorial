@@ -49,7 +49,7 @@ Participants will be guided through the following steps:
   * `git checkout -b [branch name]`, required unique branch name, usually formatted as `ISSUE-ID-meaningful-short-description`
     * for example, let's take a look at epic from JIRA board [IRSA-2060](https://jira.ipac.caltech.edu/browse/IRSA-2060) and i've picked a ticket, i.e. `IRSA-2062 improve the text`
     * Branch name will be `IRSA-2062-improve-text`, once created, **git** will switch you to this local branch (see branches `git branch -a`, see status `git status (--long)`)
-   * Will update locally [scratch.txt](scratch.txt) and make it uppercase
+   * Will update locally [scratch.txt](scratch.txt) and make it **bold**
    * Will commit and push the branch
    * Will make a [pull request](https://github.com/Caltech-IPAC/grits2018-tutorial/compare)
    * Will show the review aspect of a PR and merge
