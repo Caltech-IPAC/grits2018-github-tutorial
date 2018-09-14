@@ -53,6 +53,7 @@ Participants will be guided through the following steps:
    * Will commit and push the branch
    * Will make a [pull request](https://github.com/Caltech-IPAC/grits2018-tutorial/compare)
    * Will show the review aspect of a PR and merge
+   * See JIRA [ticket](https://jira.ipac.caltech.edu/browse/IRSA-2062) back again with reference to branch merged and links. If demo goes bananas, see sample [here IRSA-2039](https://jira.ipac.caltech.edu/browse/IRSA-2039)
     
 ## Hands-on: back to you!
 
