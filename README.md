@@ -138,6 +138,7 @@ You want more `git`?
 * Github blame is awesome but can i do something similar with git? YES:
    * Do search for changes related to a string `git log --stat -S"gator.host" --pretty=format:'%h %an %ad %s' .`
    * Once you know the file, see diff in each commit, [~blame](https://blog.andrewray.me/a-better-git-blame/): `git log -p -M --follow --stat -- /path/to/FILE`. Ta-da!
+* Resolve conflict with git: `git mergetool` [details](https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git)
 
 #### HELP!?
 * [Leave message in Slack #grits-tutorial](https://caltech-ipac.slack.com/messages/CCN03J7D5)
