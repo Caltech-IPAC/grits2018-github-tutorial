@@ -124,7 +124,7 @@ You want more `git`?
 * [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Git documentation](https://git-scm.com/docs)
 * [Github guides](https://guides.github.com) and [cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
-* [Useful git tips & tricks - autocompletion!](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
+* [Useful git tips & tricks!](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks), [terminal autocompletion!](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
 * [To Fork or to clone, that is the question!](http://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github/9257901#9257901)
 * [Pull request template](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
 * Not for beginners but Mac/Windows users can use [SourceTree](https://www.sourcetreeapp.com/) to visualize/work on git repos/branches
